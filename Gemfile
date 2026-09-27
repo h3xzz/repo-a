@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Outdated on purpose so Dependabot produces an update job.
-gem "rack", "2.2.8"
+gem "rack", "3.2.7"
 
 # ===========================================================================
 # Test: does create_jit_access allow repo B's update job to reach repo A
