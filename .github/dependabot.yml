@@ -1,0 +1,10 @@
+# .github/dependabot.yml
+#
+# bundler evaluates the Gemfile during an update, so the Ruby in the Gemfile
+# runs inside the updater container. 
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
